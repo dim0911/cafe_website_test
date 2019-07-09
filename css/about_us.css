@@ -1,0 +1,351 @@
+body{
+    font-family: Arial ,微軟正黑體,serif;
+    margin:0 auto;
+    /*background:url("../images/background-03.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    background-color:rgba(230, 230, 230, 0.5);
+}
+hr{
+    height: 0.1px;
+    margin: 1rem 0;
+    background-color:rgb(114, 114, 114);
+}
+
+/*因為設錨點時會欲顯示之區塊上方會被被nav擋住，
+    所以需要設此區塊範圍 從頂部向下作偏移 才不會被nav擋到欲顯示之區塊*/
+.anchor_point{
+    position: absolute;
+    display:block; 
+    width:100px; 
+    height:50px; 
+    top: -85px;
+    right: 500px;
+  }
+
+/*breadcrumb 麵包屑 start*/
+#breadcrumb_container{
+    padding: 3rem 3rem 1rem 3rem;
+    margin:1rem auto 0rem;
+}
+#breadcrumb_container nav {
+    border-bottom: 1px solid rgba(114,114,114);
+    margin-bottom: 0.5rem;
+}
+#breadcrumb_container nav ol{
+    padding-bottom: 0.3rem;
+    margin-bottom: 0;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#breadcrumb_container nav ol li a{
+    color: black;
+    text-decoration: none;
+}
+/*breadcrumb 麵包屑 end*/
+#idea{
+    padding: 0.8rem 0.4rem;
+    margin: 0.5rem 0rem;
+    background:url('../images/about_us/about_as-bg_01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:0.8px solid black;
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 15rem;
+    border-bottom-right-radius: 1rem;
+}
+#idea #main_img{
+    padding: 1rem 0.5rem 1rem 1rem;
+}
+#idea #main_img img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 15rem;
+    border-bottom-right-radius: 1rem;
+}
+#idea #main_intro{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem 0 1rem 0.5rem;
+}
+#idea #main_intro h3{
+    width: 100%;
+    height: 15%;
+    padding:1rem 0 0.5rem 0; 
+    margin-bottom: 0;
+    font-weight: bold;
+    border-bottom: 4px solid rgb(78, 78, 78);
+    border-bottom-style: double;
+}
+#idea #main_intro #bg_range{
+    width: 100%;
+    height: 85%;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+#idea #main_intro #bg_range #bg_color{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+#idea #main_intro p{
+    padding: 0.5rem;
+    text-align: justify;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#drink_container{
+    padding:1rem 5rem 0;
+}
+#drink{
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin:0 0 1.5rem 0;
+    border-radius: 1rem;
+}
+#drink #main_intro{
+    padding: 3rem 2rem 1rem 2rem;
+    color:white;
+    order:1;
+}
+#drink #main_intro h4{
+    margin:0 0 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+}
+#drink #main_intro p{
+    margin:1rem 0 0 0;
+    text-align: justify;
+    font-weight: bold;
+}
+#drink #main_img{
+    padding: 1rem;
+    order:2;
+}
+#drink #main_img img{
+    width: 100%;
+    height: auto;
+}
+#dessert{
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin:0 0 2rem 0;
+    border-radius: 1rem;
+}
+#dessert #main_intro{
+    padding: 3rem 2rem 1rem 2rem;
+    color:white;
+}
+#dessert #main_intro h4{
+    margin:0 0 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+}
+#dessert #main_intro p{
+    margin:1rem 0 0 0;
+    text-align: justify;
+    font-weight: bold;
+}
+#dessert #main_img{
+    padding: 1rem;
+}
+#dessert #main_img img{
+    width: 100%;
+    height: auto;
+}
+
+#traffic_container{
+    padding:0 5rem 0;
+}
+#traffic{
+    margin:1.5rem 0rem;
+    padding: 1rem 0;
+    border-radius: 1rem;
+}
+#traffic #main_map{
+    padding: 0rem;
+    padding: 0 1rem;
+}
+#traffic #main_map #bg{
+    height: 40vh;
+}
+#traffic #main_map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#traffic #main_intro{
+    padding: 0 1rem 0 0.5rem
+}
+#traffic #main_intro table #title{
+    text-align: center;
+    padding:1rem 0 0.5rem 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+#traffic #main_intro table td{
+    padding: 0.5rem;
+}
+#traffic #main_intro table img{
+    width: 2.5%;
+    height: 2.5%;
+    margin: 0.2rem 0.2rem 0 0;
+    display:inline-block;
+}
+#traffic #main_intro table p{
+    text-align: justify;
+    display:inline-block;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media(max-width:786px){
+    #breadcrumb_container{
+        padding: 3rem 1.5rem 1rem 1.5rem;
+        margin:1rem auto 0rem;
+    }
+    #idea{
+        background-size: cover;
+        border-top-left-radius: 6.5rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 1rem;
+    }
+    #idea #main_img{
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+    }
+    #idea #main_img img{
+        width:100%;
+        height:100%;
+        border-top-left-radius: 10rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 10rem;
+        border-bottom-right-radius: 1rem;
+    }
+    #idea #main_intro{
+        text-align: center;
+        padding:0 0 1rem 0;
+    }
+    #idea #main_intro h3{
+        padding:0;
+        font-size: 24px;
+    }
+    #idea #main_intro P{
+        font-size: 12px;
+    }
+
+    #drink_container{
+        padding: 0.5rem 2.5rem 0;
+        margin:1rem auto 0rem;
+    }
+    #drink #main_intro{
+        padding: 0 1.5rem 1rem 1.5rem;
+        color:white;
+        order:2;
+    }
+    #drink #main_intro h4{
+        font-size: 22px;
+    }
+    #drink #main_intro p{
+        font-size: 14px;
+    }
+    #drink #main_img{
+        padding: 1rem;
+        order:1;
+    }
+    #dessert #main_intro{
+        padding: 0 1.5rem 1rem 1.5rem;
+        color:white;
+        order:2;
+    }
+    #dessert #main_intro h4{
+        font-size: 22px;
+    }
+    #dessert #main_intro p{
+        font-size: 14px;
+    }
+    #dessert #main_img{
+        padding: 1rem;
+        order:1;
+    }
+
+    #traffic_container{
+        padding: 0rem 2.5rem 0;
+        margin:1rem auto 0rem;
+    }
+    #traffic #main_intro{
+        padding: 0 1rem;
+    }
+    #traffic #main_intro table #title{
+        padding:1rem 0 0.5rem 0;
+        font-size: 20px;
+    }
+    #traffic #main_intro table p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+@media(max-height:500px){
+    #about_as_row{
+        margin: 5rem 0rem 2.5rem 0rem;
+    }
+    #breadcrumb_container{
+        padding: 3rem 0 1rem 0;
+        margin:1rem auto 0rem;
+    }
+    #idea{
+        background-size: cover;
+        border-top-left-radius: 10em;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 1rem;
+    }
+    #idea #main_img{
+        padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+    }
+    #idea #main_img img{
+        width:100%;
+        height:auto;
+        border-top-left-radius: 9rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 9rem;
+        border-bottom-right-radius: 1rem;
+    }
+    #idea #main_intro{
+        padding: 0 0.5rem 1.5rem 0.5rem;
+    }
+    #idea #main_intro h3{
+        font-size: 24px;
+    }
+    #idea #main_intro p{
+        font-size: 14px;
+    }
+
+    #drink_container{
+        padding: 0.5rem 0 0 0;
+        margin:1rem auto 0rem;
+    }
+    #traffic_container{
+        padding: 0 0 1rem 0;
+        margin:1rem auto 0rem;
+    }
+
+    #traffic #main_intro table #title{
+        padding:1rem 0 0.5rem 0;
+    }
+    #traffic #main_intro table img{
+        width: 2.5%;
+        height: 2.5%;
+        margin: 0.2rem 0.2rem 0 0;
+        display:inline-block;
+    }
+}

@@ -1,0 +1,67 @@
+/* footer標籤內的 CSS */
+#footer_box{
+    padding: 1.5rem 1rem 1rem 1rem;
+    background-color:rgb(56, 56, 56);
+}
+#footer_tab{
+    width: 100%;
+    text-align: center;
+}
+#footer_row-01{
+    height: 100%;
+}
+#footer_logo img{
+    width: 30%;
+    height: auto;
+    padding-top:2rem ;
+}
+#footer_tab td{
+    height: 2.5rem;
+    text-align: center;
+}
+#footer_tab td #footer_tab_hot{
+    padding:0 1rem;
+}
+#footer_tab a{
+    text-decoration:none;
+    color:rgb(117, 117, 117);
+}
+#footer_tab a :hover{
+    color:rgb(218, 218, 218);
+}
+#footer_tab td #footer_tab_hot_p{
+    padding:0 0.7rem;
+    
+    font-size: 14px;
+}
+#footer_tab td #footer_tab_about_us{
+    padding:0 5rem;
+}
+#footer_tab td #footer_tab_about_us a{
+    color:white;
+    text-decoration:none;
+}
+#footer_tab td hr{
+    width: 100%;
+    height: 100%;
+    color:white;
+}
+#footer_tab td p{
+    padding: 0 2rem;
+    text-align: left;
+}
+#link_login a:hover{
+    color: white;
+}
+/*footer的 CSS 手機板 橫向*/
+@media(max-height:500px){
+    #footer_tab td #footer_tab_about_us{
+        padding:0 4rem;
+    }
+    #footer_tab td #footer_tab_hot{
+        padding:0;
+    }
+    #footer_tab td #footer_tab_hot_p{
+        padding:0 0.5rem;
+    }
+}

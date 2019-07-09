@@ -1,0 +1,51 @@
+#img-01_nav img{
+    width: 40px;
+    height: 30px;
+}
+#img-02_nav img{
+    width: 80px;
+    height: 30px;
+}
+#ul_nav{
+    width: 100%;
+    padding: 0 0 0 1rem;
+}
+#ul_nav li{
+    font-size: 18px;
+    font-weight: bold;
+}
+.dropdown-menu img{
+    width: 7%;
+    height: auto;
+    margin: 0 0.3rem 0.2rem 0; 
+}
+.dropdown-menu a{
+    display: inline;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+@media(max-width:768px){
+    .dropdown-menu img{
+        width: 3.5%;
+    }
+    .dropdown-menu a{
+        display: inline;
+        padding:0 0.5rem;
+    }
+    #ul_nav li{
+        width: 100%;
+    }
+    #ul_nav{
+        width: 100%;
+        padding: 0;
+    }
+    #img-02_nav {
+        margin: 0.5rem 0;
+    }
+}
+@media(max-height:500px){
+    .dropdown-menu img{
+        width: 2%;
+    }
+}

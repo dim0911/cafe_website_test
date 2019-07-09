@@ -1,0 +1,180 @@
+/*admin 的CSS end*/
+body{
+    font-family: Arial ,微軟正黑體,serif;
+}
+#nav_col{
+    height: auto;
+    padding: 0 1rem 2rem 1rem;
+    background-color: rgb(195, 241, 255);
+    filter: drop-shadow(5px 5px 3px rgba(139, 137, 137, 0.6));
+}
+#nav_col nav{
+    margin:1rem 0 0 0;
+    filter: drop-shadow(5px 5px 3px rgba(139, 137, 137, 0.6));
+}
+#nav_col nav img{
+    width: 50%;
+    height: auto;
+}
+#nav_col nav ul{
+    width: 100%;
+    padding:0 0 0 0;
+    margin:1.5rem 0 0 0;
+    list-style: none;
+}
+#nav_col nav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 1.2rem 0;
+    font-size: 16px;
+}
+#nav_col nav ul li #bg{
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    text-align: left;
+    border-radius: 1.5rem  0.3rem 0.3rem 1.5rem;
+}
+#nav_col nav ul li #bg #dot{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(195, 241, 255);
+    border-radius: 0.5rem;
+    border:4px solid black;
+    border-style: double;
+    display: inline-block;
+}
+#nav_col nav ul li #bg a{
+    width: 80%;
+    padding: 0 0.5rem;
+    text-align: center;
+    font-weight: bold; 
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+}
+/*
+:hover#nav_col nav ul li #bg a{
+    font-size: 18px;
+}
+*/
+
+/*main*/
+/*麵包屑*/
+#main_col{
+    height: 100%;
+    padding: 0.8rem;
+    position: relative;
+}
+#breadcrumb{
+    border-bottom: 1px solid slategray;
+}
+#main_col #breadcrumb ol{
+    padding-bottom:0.3rem;
+    border-radius: 0;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#main_table{
+    width: 100%;
+    min-height: 100vh;
+}
+/*首頁*/
+#index_bg{
+    width: 100%;
+    height: 120vh;
+    background: radial-gradient(ellipse,rgba(195, 241, 255) 30%,white 70%);
+    /*
+    background-image:url('/images/background-logo.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+}
+#index_text_top{
+    font-size: 4rem;
+}
+#index_text_center{
+    font-size: 4rem;
+}
+#index_text_bottom{
+    font-size: 5rem;
+}
+
+/*公佈欄*/
+#billboard thead{
+    text-align: center;
+}
+#billboard thead tr th{
+    text-align: center;
+    padding: 0.5rem 0;
+}
+#billboard tbody tr{
+border-bottom: 1px solid black;
+}
+#billboard tbody tr td{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: bold;
+}
+#billboard tr td #billboard_img{
+    width: 100%;
+}
+#billboard tr td #text{
+    font-size:14px; 
+}
+#billboard tr td #billboard_file {
+    font-size: 10px;
+}
+#billboard tr td #type_img{
+    width: 20%;
+    margin: 0 0 0.1rem 0;
+}
+#billboard tr td #type_file{
+    font-size: 10px;
+}
+#billboard tr td #checkbox{
+    width: 1rem;
+    height: 1rem;
+}
+#footer_admin{
+    margin-bottom: 1rem;
+    border-bottom: 0.5px solid black;
+}
+#footer_admin #th_01{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+}
+#footer_admin #th_02{
+    font-size: 20px;
+    text-align: center;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+#footer_admin td{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+}
+#footer_admin td input{
+    width: 80%;
+    font-size: 14px;
+}
+#footer_admin td #footer_file{
+    font-size: 12px;
+}
+#footer_admin td #checkbox{
+    width: 1rem;
+    height: 1rem;
+}
+/*footer*/
+#footer{
+    height:auto;
+}
+/*admin 的CSS end*/
+
+/*login CSS 有的和admin共用*/
+#main_login{
+    width: 100%;
+    height: 100vh;
+}

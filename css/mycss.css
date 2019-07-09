@@ -1,0 +1,561 @@
+body{
+    font-family: Arial ,微軟正黑體,serif;
+    margin:0 auto;
+    background:url("../images/background-03.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-color:rgb(192, 171, 133);*/
+}
+hr{
+    height: 0.1px;
+    margin: 1rem 0;
+    background-color:rgb(114, 114, 114);
+}
+#main_all_img{
+    margin:5rem 0 0 0;
+}
+
+/* header標籤內的css */
+#header_car_bill{
+    margin: 5rem 0rem 0 0rem;
+    border: 5px solid white;
+    border-style: double;
+}
+#header_car_bill #carouselExampleFade{
+    width: 100%;
+    height: 100%;
+    padding:0.5rem 0.25rem 0.5rem 0.5rem;
+}
+#header_car_bill #car_inner{
+    width: 100%;
+    height: 80vh;
+}
+#header_car_bill #car_item
+{
+    width: 100%;
+    height: 100%;
+}
+header img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+header .carousel-control-prev{
+    height: 100%;
+}
+header .carousel-control-next{
+    height: 100%;
+}
+#narrative{
+    width: 100%; 
+    height:40vh;
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+    background-color:black;
+    margin-top:-110px;
+    opacity: 0.75;
+}
+#narrative h4{
+    padding: 2rem 2rem 0 2rem;
+    word-wrap:break-word;
+}
+#narrative p{
+    padding: 0.5rem 2rem;
+    word-wrap:break-word;
+}
+#header_billboard{
+    width: 100%;
+    height: 100%;
+    padding:0.5rem 0.5rem 0.5rem 0.25rem;
+}
+#header_billboard_bg{
+    width: 100%;
+    height: 80vh;
+}
+#header_billboard_bg nav{
+    height: 10%;
+    font-weight: bolder;
+    background-color: white;
+}
+.nav-tabs{
+    height: 100%;
+}
+#header_billboard_bg #nav-tabContent{
+    height: 90%;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    position: relative;
+}
+
+/*
+#header_billboard_bg #nav-tabContent #nav-home{
+    width: 100%;
+    height: 100%;
+}
+#header_billboard_bg #nav-tabContent #nav-profile{
+    width: 100%;
+    height: 100%;
+}
+#header_billboard_bg #nav-tabContent #nav-contact{
+    width: 100%;
+    height: 100%;
+}
+*/
+#nav-tabContent img{
+    width: 5%;
+    height: 2%;
+    margin:0.2rem 0.4rem 0 0;
+    display:inline-block;
+}
+#nav-tabContent a{
+    text-decoration: none;
+}
+#nav-tabContent p{
+    display: inline-block;
+    font-size: 14.5px;
+    font-weight: bolder;
+    margin:0 0 0.2rem 0;
+}
+#header_billboard #see_all{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+#header_billboard #see_all a{
+    /*margin: 0.6rem 0.25rem 0.5rem 1rem;*/
+    padding: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color:black;
+}
+#header_billboard #see_all a:hover{
+    color:#f75270;
+}   
+
+/* main標籤內 slick套件的carouselc 之css 這是我自寫的*/
+#main_carousel{
+    background-color:rgb(95, 95, 95);
+    margin:0rem 2rem 0rem 2rem;
+    border:0.3rem solid white;
+    border-style: double;    
+}
+#main_carousel_col{
+    width: 100%;
+    height: auto;
+    padding:1rem 1rem 0 1rem;
+}
+#main_carousel_col img{
+    display: inline-block;
+}
+#main_carousel_int{
+    margin-top:0.5rem;
+    padding: 0 1.2rem 0rem 1.2rem;
+}
+#main_carousel_int p{
+    padding:0.5rem 1.2rem;
+    font-size: 16px; 
+    font-weight: bold;
+}
+#bg_combo{
+    background-color: rgba(0,0,0,0.5);
+}
+#main_carousel_col h4{
+    font-size: 16px;
+}
+
+/*main標籤內 本期主打 之css*/
+#main_featured{
+    border:0.3rem solid black;
+    border-style: double;
+    margin:0rem 2rem 0rem 2rem;
+    padding: 0.25rem;
+}
+#main_featured_col{
+    width: 100%;
+    height: 100%;    
+}
+
+#main_featured_col img{
+    width: 100%;
+    height: 100%;    
+}
+
+#main_featured_col #salc_p{
+    font-size: 2rem;
+}
+#main_bi{
+    height: 100%;
+    padding: 0.5rem 0.25rem 0rem 0.25rem;
+}
+#main_bigad_one{
+    width: 100%;
+    height: auto;
+    padding: 0rem 0.25rem 0rem 0.25rem;
+}
+#main_bigad_one img{
+    width: 100%;
+}
+#main_bigad_two{
+    padding: 0rem 0.25rem 0rem 0.25rem;
+}
+#main_bigad_two #title{
+    width: 100%;
+    height: 15%;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+#main_bigad_two #main{
+    width: 100%;
+    height: 85%;
+    padding: 0rem 1rem 0.5rem 1rem;
+}
+#main_bigad_two p{
+    height: 100%;
+    padding: 1rem;
+    font-weight: bold;
+    border:1px solid rgb(173, 126, 8);
+}
+#sale_p{
+    font-size: 32px;
+    font-weight: bolder;
+    cursor: default;
+}
+#main_card{
+    padding: 0 0.25rem 0.5rem 0.25rem;
+}
+#main_card img{
+    width: 100%;
+    height: auto;  
+}
+#main_card_p h5{
+    line-height: 1rem;
+}
+#main_card_p h5 hr{
+    width:100%;
+    height:0.5px; 
+    margin:0;
+}
+#main_card_p p{
+    font-size: 14px;
+    font-weight: bold;
+}
+#main_card_img_p{
+    border: slategray solid 1px;
+}
+
+/* main標籤內的 咖啡豆廣告之css*/
+#main_cb_ad{
+    padding: 0.5rem 0.5rem 0;
+    margin:0rem 2rem 3rem 2rem;
+    border:0.3rem solid black;
+    border-style: double;
+    background-color: white;
+}
+#main_cb_ad #col_banner{
+    margin: 0 0 0rem 0;
+}
+#main_cb_ad #col_banner img{
+    width: 100%;
+    height: auto;
+    border:1px solid slategray;
+}
+#card{
+    padding: 0 0.2rem 1rem 0.2rem;
+}
+#main_cb_ad #col_ads img{
+    width: 100%;
+    height: auto;
+}
+#main_cb_ad #col_ads p{
+    padding: 0 1rem;
+    margin:0.5rem 0 0 0;
+    font-size: 16px;
+}
+
+/*手機板的CSS 直向*/
+@media(max-width:786px){
+    #main_all_img{
+        margin:2rem 0 0.1rem;
+    }
+    #main_all_img img{
+        width: 60%;
+        height: auto;
+    }
+    /* header標籤內的css 手機板*/
+    #header_car_bill{
+        height: 80%;
+        margin: 4.5rem 0 0 0;
+        border: 5px solid white;
+        border-style: double;
+    }
+    #header_car_bill #car_inner{
+        width: 100%;
+        height: 30vh;
+    }
+    #header_car_bill #carouselExampleFade{
+        padding:0.5rem 0.5rem 0rem 0.5rem;
+    }
+    header img{
+        width: 100%;
+        height: 100%;
+    }
+    #narrative{
+        height:28vh;
+        margin-top:-55px;
+        text-align: justify;
+    }
+    #narrative h4{
+        padding-top:0.8rem;
+        margin: 0 0 0.2rem 0;
+        font-size: 13px;
+    }
+    /*
+    #narrative p{
+        height:28vh;
+        padding: 0.5rem 0.5rem;
+        font-size: 8px;
+        display: none;
+    }
+    */
+    #header_billboard{
+        height: 100%;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    #header_billboard_bg{
+        width: 100%;
+        height: 60vh;
+    }
+    #header_billboard #see_all{
+        margin:0rem 0.25rem 0.25rem 1rem;
+        font-size: 10px;
+    }
+   
+    #header_billboard_bg #nav-tabContent{
+        height: 90%;
+        padding:1rem;
+    }  
+    #nav-tabContent img{
+        width: 10px;
+        height: 10px;
+        margin:0.1rem 0.4rem 0 0;
+        display:inline-block;
+    }
+    #nav-tabContent p{
+        font-size: 10px;
+        font-weight: bolder;
+        margin:0 0 0.2rem 0;
+        display:inline-block;
+    }
+    /*main標籤內 精選套餐 之css*/
+    #main_carousel_col{
+        width: 100%;
+        height: auto;
+        padding:0.5rem;
+    }
+    #main_carousel_int{
+        padding: 0;
+        margin-top:0;
+    }
+    #main_carousel_int h3{
+        font-size: 20px; 
+    }
+    #main_carousel_int p{
+        padding:0rem 1.5rem;
+        font-size: 10px; 
+        font-weight: bold;
+    }
+    #bg_combo h4{
+        font-size: 16px;
+    }
+    /*main標籤內 本期主打 之css*/
+    #main_featured{
+        height: 100%;
+        border:0.3rem solid black;
+        border-style: double;
+        margin:0rem 2rem 1.5rem 2rem;
+        padding:0.2rem 0.2rem 0 0.2rem;     
+    }
+    #main_featured #main_bi{
+        height: 100%;
+    }
+    #main_bigad_one{
+        width: 100%;
+        height: auto;
+        padding: 0rem 0.1rem 0.25rem 0.1rem;
+    }
+    #main_bigad_one img{
+        width: 100%;
+        height: auto;
+    }
+    #main_bigad_two{
+        margin:0;
+        padding: 0;
+    }
+    #main_bigad_two #title{
+        width: 100%;
+        height: 15%;
+        padding: 0.5rem 0.5rem 0 0.5rem;
+    }
+    #main_bigad_two #main{
+        width: 100%;
+        height: 85%;
+        padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    }
+    #main_bigad_two p{
+        height: 100%;
+        padding: 1rem;
+        font-size: 12px;
+        font-weight: bold;
+        border:1px solid rgb(173, 126, 8);
+    }
+    #sale_p{
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    #main_card_p{
+        padding: 0.2rem;
+    }
+    #main_card_p h5{
+        font-size: 18px;
+        line-height: 1.2rem;
+        padding: 1rem 0 0rem 0;
+    }
+    #main_card_p p{
+        font-size: 8px;
+    }
+    /* main標籤內的 咖啡豆廣告之css*/
+    #main_cb_ad #col_banner{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        margin: 0 0 1rem 0;
+    }
+    #main_cb_ad #col_banner{
+        margin: 0;
+    }
+    #card{
+        padding: 0 0.2rem 0.5rem 0.2rem;
+    }
+    #main_cb_ad #col_ads p{
+        padding: 0;
+        margin:0.25rem 0 0.8rem 0;
+        font-size: 0.5px;
+    }
+    /* slick網站下載 橫向carousel套件 之CSS 手機板*/
+    .slick-slide{
+        margin: 0px 5px;
+    }
+    #main_carousel_col p{
+        font-size:12px;
+    }
+}
+/*手機板的CSS 橫向*/
+@media(max-height:500px){
+    /* header標籤內的輪播之css 手機板 */
+    #header_car_bill #car_inner{
+        width: 100%;
+        height: 80vh;
+    }
+    #narrative{
+        height:40vh;
+        margin-top:-75px;
+
+    }
+    #narrative h4{
+        margin: 0.1rem 0 0.2rem 0;
+        font-size: 20px;
+    }
+    /*
+    #narrative p{
+        height:28vh;
+        padding: 0.7rem;
+        font-size: 13px;
+    }
+    */
+    /* header標籤內的公佈欄之css 手機板 */
+    #header_billboard{
+        height: 90vh;
+    }
+    #header_billboard_bg{
+        width: 100%;
+        height: 100%;
+    }
+    #header_billboard #see_all{
+        margin: 0.5rem 0.25rem 0.4rem 1rem;
+        font-size: 16px;
+    }
+    #nav-tabContent{
+        height: 85%;
+    }
+    #nav-tabContent img{
+        margin:0.2rem 0.4rem 0 0;
+    }
+    #nav-tabContent p{
+        font-size: 14px;
+    }
+    /*精選套餐*/
+    #main_carousel_col{
+        height: 40vh;
+    }
+    #bg_combo{
+        font-size: 16px;
+    }
+    /*本期主打 banner*/
+    #main_bigad_two #title{
+        width: 100%;
+        height: 15%;
+        font-size: 18px;
+        padding: 0rem 0.5rem 0 0.5rem;
+    }
+    #main_bigad_two #title h4{
+        font-size: 20px;
+    }
+    #main_bigad_two #main{
+        padding-top:0.3rem; 
+    }
+    #main_bigad_two #main p{
+        padding:0.6rem;
+    }
+    /*咖啡物語 手機橫向*/
+    #main_cb_ad #col_ads p{
+        font-size: 0.8rem;
+    }
+}
+/*外部引用*/
+/* main標籤內的 slick網站下載 橫向carousel套件 之CSS */
+html, body {
+    margin: 0;
+    padding: 0;
+    }
+
+  * {
+    box-sizing: border-box;
+    }
+
+.slider {
+    width: 95%;
+    margin: 20px auto;
+    }
+
+.slick-slide {
+margin: 0px 15px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .4;
+}
+
+.slick-current {
+opacity: 1;
+}
